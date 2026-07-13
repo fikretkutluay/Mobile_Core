@@ -7,7 +7,7 @@ public abstract class BasePanel : MonoBehaviour
     
     protected float fadeDuration = 0.5f; 
 
-    private void Awake()
+    protected virtual void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
     }
