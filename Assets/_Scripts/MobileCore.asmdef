@@ -1,0 +1,16 @@
+{
+    "name": "MobileCore",
+    "rootNamespace": "",
+    "references": [
+        "GUID:df69b021e7f482a4a8a69cfe7f459949"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -16,7 +16,7 @@ public abstract class BasePanel : MonoBehaviour
     {
         gameObject.SetActive(true);
         canvasGroup.blocksRaycasts = true; 
-        canvasGroup.alpha = 0;
+        canvasGroup.alpha = 0f;
         canvasGroup.DOFade(1, fadeDuration);
     }
 
