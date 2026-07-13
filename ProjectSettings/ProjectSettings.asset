@@ -825,7 +825,25 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    EmbeddedLinux: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    GameCoreScarlett: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    GameCoreXboxOne: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    Kepler: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    LinuxHeadlessSimulation: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    Nintendo Switch: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    Nintendo Switch 2: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    PS4: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    PS5: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    QNX: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    Standalone: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    VisionOS: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    WebGL: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    Windows Store Apps: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    XboxOne: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    iPhone: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
+    tvOS: DOTWEEN;DOTWEEN_UITOOLKIT;DOTWEEN_EPO
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -846,8 +864,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Mobile_Core
-  metroPackageVersion: 
+  metroPackageName: MobileCore
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -855,7 +873,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Mobile_Core
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Mobile_Core
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -922,7 +940,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
